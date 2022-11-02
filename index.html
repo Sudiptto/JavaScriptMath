@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Math Questions!</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>WELCOME TO MATH CALCULATOR</h1>
+    <p>By Sudiptto Biswas</p>
+
+    <table style="width:100%">
+        <tr>
+          <th>
+            <h2>ADD/SUBTRACT/DIVIDE</h2></th>
+          <th>
+            <h2>EXPONENT/SQUARE-ROOT/REMAINDER</h2>
+          </th>
+          
+        </tr>
+        <tr>
+          <td>
+            <input id="add_val1" required placeholder="Value 1">  <br>
+            <input id="add_val2" required placeholder="Value 2">  <br>
+
+            <button id="add" onClick="addition()">ADD VALUES</button>
+          </td>
+          <td>
+            <input id="exp_val1" required placeholder="Value 1">  <br>
+            <input id="exp_val2" required placeholder="Value 2">  <br>
+
+            <button id="exponent" onClick="power()">FIND EXPONENT</button>
+          </td>
+          
+        </tr>
+        <tr>
+          <td>
+            <input id="sub_val1" required placeholder="Value 1">  <br>
+            <input id="sub_val2" required placeholder="Value 2">  <br>
+
+            <button id="sub" onClick="subtract()"> SUBTRACT VALUES</button>
+          </td>
+          <td>
+            <input id="root_val1" required placeholder="Value 1">  <br>
+            
+
+            <button id="root" onClick="squareroot()">FIND SQUARE ROOT</button>
+          </td>
+          
+        </tr>
+        
+        <tr>
+          <td>
+            <input id="div_val1" required placeholder="Value 1">  <br>
+            <input id="div_val2" required placeholder="Value 2">  <br>
+
+            <button id="div" onClick="divison()"> DIVIDE VALUES</button>
+          </td>
+          <td>
+            <input id="rem_val1" required placeholder="Value 1">  <br>
+            <input id="rem_val2" required placeholder="Value 2">  <br>
+
+            <button id="remainder" onClick="findRemainder()">FIND REMAINDER</button>
+          </td>
+        </tr>
+        
+      </table>
+      
+
+      <input id="random" required placeholder="Enter Random Value" style="width: 100%;">
+      <button style="text-align:center; height: 15%; background-color: black;color:white;" onClick="randomNum()">RANDOM NUMBER</button>
+      
+      <h1 id="randomm"></h1>
+</body>
+</html>
